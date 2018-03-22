@@ -1,0 +1,138 @@
+body{
+	margin:0px;
+	font-family: 'Cuprum', sans-serif;
+}
+a {
+	color: #838485;
+}
+.container {
+	position:relative;
+}
+.sec-top{
+	padding:20px 0px;
+}
+.sec-top p{
+	font-size:20px;
+	color:#646464;
+}
+.sec-menus{
+	padding: 5px 0px;
+	background-color:#f6f6f6;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse{
+	padding: 5px 0px;
+	background-color:#f6f6f6;
+	border:none;
+	margin:0px;
+	border-radius:0;
+}
+.menu-icon img{
+	padding-top:9px;
+}
+.navbar-inverse .navbar-nav > li > a{
+	font-size:22px;
+	color:#646464;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+	color:#f78157;
+}
+.sec-main-content{
+	background-image: url("../images/back.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.img-right {
+  padding-top: 15px;
+  position: static;
+}
+.img-right img {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}
+.main-left{
+	background-color:#fff;
+	margin: 79px 0px;
+	padding: 18px 0px;
+}
+.main-left .login_area {
+	padding: 10px 40px;
+}
+.main-left .login_area .form-control {
+	border-color:#d9d9d9;
+	border-radius:0;
+	padding: 10px 10px 10px 67px;
+	min-height:48px;
+	box-shadow: none;
+	font-size:17px;
+}
+.main-left .login_area .form-control.username {
+	background: #fff url('../images/log-inpage_03.jpg') no-repeat center left;
+}
+.main-left .login_area .form-control.password {
+	background: #fff url('../images/log-inpage_06.jpg') no-repeat center left;
+}
+.register{
+	color:#646464;
+	font-size:32px;
+	font-weight:bold;
+}
+.custom-btn-log{
+	width:100%;
+	border-radius:0px;
+	background-color:#646464;
+	border:none;
+	min-height:48px;
+	box-shadow: none;
+	font-size:17px;
+}
+
+.custom-btn-log:hover{
+		background-color:#f7835a;
+}
+.social-icon-sec{
+	padding-top:20px;
+}
+.social-icon-sec p{
+	color:#646464;
+	font-size:23px;
+	font-weight:bold;
+	padding-top: 17px;
+}
+.footer{
+	padding:30px;
+}
+.footer p{
+	color:#646464;
+	font-size:21px;
+}
+
+.modal-header {
+  background-color: #F7835A;
+  border-bottom: 0 none;
+  color: #fff;
+  font-weight: 600;
+  min-height: 16.43px;
+  padding: 15px;
+  text-transform: capitalize;
+  border-radius: 6px 6px 0 0;
+}
+.modal-body  .form-control {
+	border-color:#d9d9d9;
+	border-radius:0;
+	padding: 10px;
+	min-height:42px;
+	box-shadow: none;
+	font-size:17px;
+}
+.btn-primary {
+  background-color: #F7835A;
+  border-color: #F7835A;
+  color: #fff;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  background-color: #FBA570;
+  border-color: #FBA570;
+  color: #fff;
+}
